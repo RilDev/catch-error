@@ -1,0 +1,7 @@
+localhost:8080 {
+	file_server
+}
+
+localhost:8080/api/** {
+	reverse_proxy :5000
+}

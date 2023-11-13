@@ -1,0 +1,14 @@
+{
+  "name": "catch-error",
+  "version": "1.0.0",
+  "description": "When the",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "caddy start && node server.js",
+    "dev:server": "node server.js --watch",
+    "dev:caddy": "caddy run --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
